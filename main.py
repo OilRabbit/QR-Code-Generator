@@ -6,7 +6,7 @@ s = input("Please paste the URL of the webside you would like to generate a QR C
 # print("\n")
 name = input("Please input the name of the QR Code \n")
 # print("\n")
-
+#aadadada
 
 url = pyqrcode.create(s)
 url.svg(name, scale = 8)
